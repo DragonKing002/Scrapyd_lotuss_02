@@ -1,0 +1,12 @@
+boto3 
+secure-smtplib 
+Office365-REST-Python-Client
+pandas
+scrapy
+chromedriver_autoinstaller
+scrapyd
+scrapy-user-agents
+scrapy-useragents
+scrapy_proxies
+scrapy-rotating-proxies
+openpyxl

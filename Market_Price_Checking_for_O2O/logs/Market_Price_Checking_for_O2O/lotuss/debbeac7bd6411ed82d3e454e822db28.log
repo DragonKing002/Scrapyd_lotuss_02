@@ -1,0 +1,9 @@
+2023-03-08 10:54:26 [scrapy.utils.signal] ERROR: Error caught on signal handler: <bound method LotussSpider.spider_opened of <LotussSpider 'lotuss' at 0x2355fb70e50>>
+Traceback (most recent call last):
+  File "d:\users\jumphonkae\appdata\local\programs\python\python39\lib\site-packages\scrapy\utils\defer.py", line 292, in maybeDeferred_coro
+    result = f(*args, **kw)
+  File "d:\users\jumphonkae\appdata\local\programs\python\python39\lib\site-packages\pydispatch\robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "d:\users\jumphonkae\appdata\local\temp\market_price_checking_for_o2o-1678247431-jkg6eq1q.egg\Market_Price_Checking_for_O2O\spiders\lotuss.py", line 56, in spider_opened
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'Email-Cofig.xlsx' -> './config_mer_checking_o2o/Email-Cofig.xlsx'
+2023-03-08 10:55:17 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://api-customer.lotuss.com/robots.txt> (failed 4 times): 404 Not Found

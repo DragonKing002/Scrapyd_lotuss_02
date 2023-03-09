@@ -1,0 +1,1 @@
+2023-03-08 10:53:20 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://api-customer.lotuss.com/robots.txt> (failed 4 times): 404 Not Found

@@ -1,0 +1,6 @@
+ขั้นตอนการ Push
+docker tag Image_name username/Image_name:Version_
+docker push username/Image_name:Version_
+
+ขั้นตอนการ Connect AWS กับ Scrapeops
+ถ้ารันคำสั่งไม่ได้ให้ใช้ sudo su เพื่อเข้าไปหน้า Root
